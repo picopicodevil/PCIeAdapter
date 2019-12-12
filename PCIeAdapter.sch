@@ -506,7 +506,7 @@ U 1 1 5DEB9ED7
 P 5750 3700
 F 0 "J2" H 5800 5300 50  0000 C CNN
 F 1 "Conn_02x32_Counter_Clockwise" H 5800 2000 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x32_P2.54mm_Vertical" H 5750 3700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x32_P2.54mm_Vertical" H 5750 3700 50  0001 C CNN
 F 3 "~" H 5750 3700 50  0001 C CNN
 	1    5750 3700
 	1    0    0    -1  

@@ -316,92 +316,6 @@ Wire Wire Line
 Connection ~ 5550 2250
 Wire Wire Line
 	5550 2250 5550 2300
-Wire Wire Line
-	6050 2400 6050 2500
-Connection ~ 6050 2400
-Connection ~ 6050 2300
-Wire Wire Line
-	6050 2300 6050 2400
-Wire Wire Line
-	6050 2200 6050 2300
-Wire Wire Line
-	6050 3000 6050 3100
-Connection ~ 6050 3000
-Connection ~ 6050 2900
-Wire Wire Line
-	6050 2900 6050 3000
-Wire Wire Line
-	6050 2800 6050 2900
-Connection ~ 6050 2800
-Connection ~ 6050 2700
-Wire Wire Line
-	6050 3600 6050 3700
-Connection ~ 6050 3600
-Connection ~ 6050 3500
-Wire Wire Line
-	6050 3500 6050 3600
-Wire Wire Line
-	6050 3400 6050 3500
-Connection ~ 6050 3400
-Connection ~ 6050 3300
-Connection ~ 6050 4800
-Connection ~ 6050 4700
-Wire Wire Line
-	6050 4700 6050 4800
-Wire Wire Line
-	6050 4400 6050 4500
-Wire Wire Line
-	6050 4200 6050 4300
-Connection ~ 6050 4000
-Wire Wire Line
-	6050 4000 6050 4100
-Wire Wire Line
-	6050 3900 6050 4000
-Connection ~ 6050 3900
-Connection ~ 6050 3800
-Connection ~ 6050 3700
-Wire Wire Line
-	6050 3800 6050 3900
-Wire Wire Line
-	6050 3700 6050 3800
-Wire Wire Line
-	6050 5200 6050 5300
-Connection ~ 6050 5200
-Connection ~ 6050 5100
-Wire Wire Line
-	6050 5100 6050 5200
-Wire Wire Line
-	6050 5000 6050 5100
-Connection ~ 6050 5000
-Connection ~ 6050 4900
-Connection ~ 5550 5200
-Wire Wire Line
-	5550 5200 5550 5300
-Wire Wire Line
-	5550 5100 5550 5200
-Connection ~ 5550 5100
-Connection ~ 5550 5000
-Connection ~ 5550 4900
-Wire Wire Line
-	5550 5000 5550 5100
-Wire Wire Line
-	5550 4900 5550 5000
-Wire Wire Line
-	5550 4600 5550 4700
-Connection ~ 5550 4600
-Wire Wire Line
-	5550 4500 5550 4600
-Connection ~ 5550 3700
-Wire Wire Line
-	6050 2700 6050 2800
-Wire Wire Line
-	6050 3300 6050 3400
-Wire Wire Line
-	6050 4900 6050 5000
-Wire Wire Line
-	6050 4800 6050 4900
-Wire Wire Line
-	5550 3700 5550 3800
 $Comp
 L power:VCC #PWR0124
 U 1 1 5DEF7526
@@ -427,21 +341,6 @@ $EndComp
 NoConn ~ 3700 3850
 NoConn ~ 2600 3850
 NoConn ~ 2600 3750
-Wire Wire Line
-	6050 2500 6050 2600
-Connection ~ 6050 2500
-Connection ~ 6050 2600
-$Comp
-L Connector_Generic:Conn_02x32_Counter_Clockwise J2
-U 1 1 5DEB9ED7
-P 5750 3700
-F 0 "J2" H 5800 5300 50  0000 C CNN
-F 1 "Conn_02x32_Counter_Clockwise" H 5800 2000 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x32_P2.54mm_Vertical" H 5750 3700 50  0001 C CNN
-F 3 "~" H 5750 3700 50  0001 C CNN
-	1    5750 3700
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GNDPWR #PWR0128
 U 1 1 5DF0AFD3
@@ -454,67 +353,168 @@ F 3 "" H 6050 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6050 3200 6050 3300
+	5550 3800 5550 3900
+NoConn ~ 3700 4100
 Wire Wire Line
-	6050 2600 6050 2700
+	5550 3450 5550 3500
 Wire Wire Line
-	6050 3100 6050 3200
-Connection ~ 6050 3100
-Connection ~ 6050 3200
+	5550 3400 5550 3450
+Connection ~ 5550 3450
+$Comp
+L power:+7.5V #PWR0122
+U 1 1 5DEF5428
+P 5550 3450
+F 0 "#PWR0122" H 5550 3300 50  0001 C CNN
+F 1 "+7.5V" H 5550 3590 50  0000 C CNN
+F 2 "" H 5550 3450 50  0001 C CNN
+F 3 "" H 5550 3450 50  0001 C CNN
+	1    5550 3450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6050 2200
+Connection ~ 5550 4500
+Connection ~ 5550 4400
 Wire Wire Line
-	6050 4100 6050 4200
-Connection ~ 6050 4100
-Connection ~ 6050 4200
+	5550 4400 5550 4500
+Connection ~ 5550 4000
+Connection ~ 5550 4100
 Wire Wire Line
-	6050 4500 6050 4600
-Connection ~ 6050 4500
-Connection ~ 6050 4600
-Wire Wire Line
-	6050 4600 6050 4700
-Connection ~ 6050 4400
-Wire Wire Line
-	5550 4800 5550 4900
-Wire Wire Line
-	5550 4100 5550 4200
-Connection ~ 5550 4200
-Wire Wire Line
-	5550 4700 5550 4800
-Connection ~ 5550 4700
+	5550 4000 5550 4100
+Connection ~ 5550 3800
 Connection ~ 5550 4800
+Connection ~ 5550 4700
+Connection ~ 5550 4200
 Wire Wire Line
 	5550 4200 5550 4300
 Wire Wire Line
+	5550 4100 5550 4200
+Wire Wire Line
+	5550 4700 5550 4800
+Wire Wire Line
+	5550 4800 5550 4900
+Connection ~ 6050 4400
+Wire Wire Line
+	6050 4600 6050 4700
+Connection ~ 6050 4600
+Connection ~ 6050 4500
+Connection ~ 6050 4200
+Connection ~ 6050 4100
+Connection ~ 6050 3200
+Connection ~ 6050 3100
+Wire Wire Line
+	6050 3100 6050 3200
+Wire Wire Line
+	6050 3200 6050 3300
+Connection ~ 6050 2600
+Connection ~ 6050 2500
+Wire Wire Line
+	6050 2600 6050 2700
+Wire Wire Line
+	6050 2500 6050 2600
+Connection ~ 5550 4600
+Wire Wire Line
+	5550 4500 5550 4600
+Wire Wire Line
+	5550 4600 5550 4700
+Wire Wire Line
+	5550 4900 5550 5000
+Wire Wire Line
+	5550 5000 5550 5100
+Connection ~ 5550 4900
+Connection ~ 5550 5000
+Connection ~ 5550 5100
+Wire Wire Line
+	5550 5100 5550 5200
+Wire Wire Line
+	5550 5200 5550 5300
+Connection ~ 5550 5200
+Connection ~ 6050 4900
+Connection ~ 6050 5000
+Wire Wire Line
+	6050 4900 6050 5000
+Wire Wire Line
+	6050 5000 6050 5100
+Connection ~ 6050 5100
+Connection ~ 6050 5200
+Wire Wire Line
+	6050 5100 6050 5200
+Wire Wire Line
+	6050 5200 6050 5300
+Wire Wire Line
+	6050 3700 6050 3800
+Wire Wire Line
+	6050 3800 6050 3900
+Connection ~ 6050 3700
+Connection ~ 6050 3800
+Connection ~ 6050 3900
+Wire Wire Line
+	6050 3900 6050 4000
+Wire Wire Line
+	6050 4000 6050 4100
+Connection ~ 6050 4000
+Wire Wire Line
+	6050 4100 6050 4200
+Wire Wire Line
+	6050 4200 6050 4300
+Wire Wire Line
+	6050 4500 6050 4600
+Wire Wire Line
+	6050 4400 6050 4500
+Wire Wire Line
+	6050 4800 6050 4900
+Wire Wire Line
+	6050 4700 6050 4800
+Connection ~ 6050 4700
+Connection ~ 6050 4800
+Connection ~ 6050 3300
+Connection ~ 6050 3400
+Wire Wire Line
+	6050 3300 6050 3400
+Wire Wire Line
+	6050 3400 6050 3500
+Connection ~ 6050 3500
+Connection ~ 6050 3600
+Wire Wire Line
+	6050 3500 6050 3600
+Wire Wire Line
+	6050 3600 6050 3700
+Connection ~ 6050 2700
+Connection ~ 6050 2800
+Wire Wire Line
+	6050 2700 6050 2800
+Wire Wire Line
+	6050 2800 6050 2900
+Connection ~ 6050 2900
+Connection ~ 6050 3000
+Wire Wire Line
+	6050 2900 6050 3000
+Wire Wire Line
+	6050 3000 6050 3100
+Wire Wire Line
+	6050 2200 6050 2300
+Connection ~ 6050 2300
+Connection ~ 6050 2400
+Wire Wire Line
+	6050 2300 6050 2400
+Wire Wire Line
+	6050 2400 6050 2500
+Wire Wire Line
 	5550 3600 5550 3700
 $Comp
-L power:VCC #PWR0106
-U 1 1 5DF9E713
-P 5550 3400
-F 0 "#PWR0106" H 5550 3250 50  0001 C CNN
-F 1 "VCC" H 5550 3550 50  0000 C CNN
-F 2 "" H 5550 3400 50  0001 C CNN
-F 3 "" H 5550 3400 50  0001 C CNN
-	1    5550 3400
-	0    -1   -1   0   
+L Connector_Generic:Conn_02x32_Counter_Clockwise J2
+U 1 1 5DEB9ED7
+P 5750 3700
+F 0 "J2" H 5800 5300 50  0000 C CNN
+F 1 "Conn_02x32_Counter_Clockwise" H 5800 2000 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x32_P2.54mm_Vertical" H 5750 3700 50  0001 C CNN
+F 3 "~" H 5750 3700 50  0001 C CNN
+	1    5750 3700
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5550 3800 5550 3900
-Connection ~ 5550 3800
+	5550 3700 5550 3800
+Connection ~ 5550 3700
 Wire Wire Line
-	5550 4000 5550 4100
-Connection ~ 5550 4100
-Connection ~ 5550 4000
-Connection ~ 5550 3600
-Wire Wire Line
-	5550 4400 5550 4500
-Connection ~ 5550 4400
-Connection ~ 5550 4500
-Connection ~ 6050 2200
-NoConn ~ 3700 4100
-NoConn ~ 2600 4100
-Wire Wire Line
-	5550 3400 5550 3500
-Wire Wire Line
-	5550 3500 5550 3600
-Connection ~ 5550 3500
-Connection ~ 5550 3400
+	5550 4000 5550 3900
+Connection ~ 5550 3900
 $EndSCHEMATC
