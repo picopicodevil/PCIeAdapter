@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 19)
+    (drawings 28)
     (tracks 118)
     (zones 0)
     (modules 2)
@@ -11,10 +11,10 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
-    (33 F.Adhes user)
+    (33 F.Adhes user hide)
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
@@ -988,7 +988,16 @@
       (net 6 GNDPWR))
   )
 
-  (gr_text B6 (at 124.4 129.4) (layer F.SilkS) (tstamp 5DF227E1)
+  (gr_line (start 125.7 123.8) (end 125.7 133) (layer F.SilkS) (width 0.12))
+  (gr_line (start 123.2 123.8) (end 123.2 133) (layer F.SilkS) (width 0.12))
+  (gr_line (start 120.6 123.8) (end 120.6 129.8) (layer F.SilkS) (width 0.12))
+  (gr_line (start 118.1 123.8) (end 118.1 133) (layer F.SilkS) (width 0.12))
+  (gr_line (start 115.6 123.8) (end 115.6 133) (layer F.SilkS) (width 0.12))
+  (gr_line (start 113 123.8) (end 113 133) (layer F.SilkS) (width 0.12))
+  (gr_line (start 163.8 123.8) (end 163.8 133) (layer F.SilkS) (width 0.12))
+  (gr_line (start 138.4 123.8) (end 138.4 133) (layer F.SilkS) (width 0.12))
+  (gr_line (start 128.3 123.8) (end 128.3 133) (layer F.SilkS) (width 0.12))
+  (gr_text B6 (at 124.5 129.4) (layer F.SilkS) (tstamp 5DF227E1)
     (effects (font (size 0.6 0.6) (thickness 0.09)))
   )
   (gr_text "PCIeAdapter Version1.0\nDesigned by TNK." (at 184 130) (layer B.SilkS)
