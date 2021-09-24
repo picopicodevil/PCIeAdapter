@@ -517,4 +517,5 @@ Connection ~ 5550 3700
 Wire Wire Line
 	5550 4000 5550 3900
 Connection ~ 5550 3900
+NoConn ~ 2600 4100
 $EndSCHEMATC
