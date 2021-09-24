@@ -185,7 +185,7 @@ U 1 1 5DEB87D4
 P 3150 6300
 F 0 "J1" H 3150 9400 50  0000 C CNN
 F 1 "Bus_mechaken_PCIexpress_x16_164_Position" H 3100 8000 50  0000 C CNN
-F 2 "PCIe:BUS_mechaken_PCIexpress_x16_164_Position" H 2800 6200 50  0001 C CNN
+F 2 "PCIe:BUS_mechaken_PCIexpress_x16" H 2800 6200 50  0001 C CNN
 F 3 "http://pinouts.ru/Slots/PCI_pinout.shtml" H 2800 6200 50  0001 C CNN
 	1    3150 6300
 	1    0    0    -1  
@@ -517,4 +517,5 @@ Connection ~ 5550 3700
 Wire Wire Line
 	5550 4000 5550 3900
 Connection ~ 5550 3900
+NoConn ~ 2600 4100
 $EndSCHEMATC
